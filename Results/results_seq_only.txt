@@ -1,0 +1,263 @@
+['C1' 'C2' 'C2,C2' 'C3' 'C4' 'C5' 'C6' 'D2' 'D3' 'D4' 'D5' 'D6' 'others']
+['decamer' 'dimer' 'dodecamer' 'hexamer' 'monomer' 'octamer' 'pentamer'
+ 'tetramer' 'trimer']
+['hetromer' 'homomer']
+Training Logistic Regression For Symmetry
+Training Logistic Regression For Quaternary State
+Training Logistic Regression For Quaternary Type
+Logistic Regression Model Results
+
+
+Cross-validation Results
+
+
+Symmetry Prediction
+Best Model is LogisticRegression(C=0.1, random_state=1)
+Crossvalidation score is 0.2474588759514483
+Quaternary State Prediction
+Best Model is LogisticRegression(C=0.01, random_state=1)
+Crossvalidation score is 0.12850952020326434
+Quaternary Type Prediction
+Best Model is LogisticRegression(C=1, class_weight='balanced', random_state=1)
+Crossvalidation score is 0.3219338150211625
+
+
+Results on Test Data
+
+
+For Symmetry Prediction
+Accuracy = 0.506874644414944
+MCC = 0.24483054824424888
+Class wise F1 = [0.54838172 0.6009102  0.09837587 0.21491914 0.         0.
+ 0.44247788 0.23376623 0.21069182 0.21538462 0.05479452 0.17647059
+ 0.29411765]
+Macro F1 = 0.23771463319400074
+Micro F1 = 0.506874644414944
+Weighted F1 = 0.4602342413865662
+
+
+For Quaternary State Prediction
+Accuracy = 0.36852835198179407
+MCC = 0.13139633807380965
+Class wise F1 = [0.         0.4140889  0.         0.03595206 0.48625973 0.00414508
+ 0.01133144 0.15264865 0.18461538]
+Macro F1 = 0.14322680530295442
+Micro F1 = 0.36852835198179407
+Weighted F1 = 0.30723705801594536
+
+
+For Quaternary Type Prediction
+Accuracy = 0.659159871041153
+MCC = 0.31791783240452354
+Class wise F1 = [0.63620262 0.6793917 ]
+Macro F1 = 0.6577971586756166
+Micro F1 = 0.659159871041153
+Weighted F1 = 0.6600639093723091
+Training Decision Tree For Symmetry
+Training Decision Tree For Quaternary State
+Training Decision Tree For Quaternary Type
+Decision Tree Model Results
+
+
+Cross-validation Results
+
+
+Symmetry Prediction
+Best Model is DecisionTreeClassifier(max_depth=40, min_samples_split=16, random_state=1)
+Crossvalidation score is 0.6024444587655579
+Quaternary State Prediction
+Best Model is DecisionTreeClassifier(max_depth=40, min_samples_split=16, random_state=1)
+Crossvalidation score is 0.4741647576977668
+Quaternary Type Prediction
+Best Model is DecisionTreeClassifier(max_depth=40, min_samples_split=16, random_state=1)
+Crossvalidation score is 0.6398511117084835
+
+
+Results on Test Data
+
+
+For Symmetry Prediction
+Accuracy = 0.7379575194386497
+MCC = 0.6303382094437369
+Class wise F1 = [0.77539813 0.78346291 0.58042145 0.73687869 0.39705882 0.56626506
+ 0.65030675 0.6292316  0.64025696 0.4375     0.56666667 0.51282051
+ 0.55555556]
+Macro F1 = 0.6024479312756009
+Micro F1 = 0.7379575194386497
+Weighted F1 = 0.7361099285713737
+
+
+For Quaternary State Prediction
+Accuracy = 0.617532713825147
+MCC = 0.5100884294009299
+Class wise F1 = [0.50322581 0.63904192 0.44107351 0.5037037  0.71332649 0.47437929
+ 0.41509434 0.56918327 0.54921321]
+Macro F1 = 0.5342490595260758
+Micro F1 = 0.617532713825147
+Weighted F1 = 0.615602681311054
+
+
+For Quaternary Type Prediction
+Accuracy = 0.833112080409634
+MCC = 0.6647509713643951
+Class wise F1 = [0.81805024 0.84587092]
+Macro F1 = 0.8319605799185879
+Micro F1 = 0.833112080409634
+Weighted F1 = 0.8334207300257908
+Training Gaussian Naive Bayes For Symmetry
+Training Gaussian Naive Bayes For Quaternary State
+Training Gaussian Naive Bayes For Quaternary Type
+Gaussian Naive Bayes Model Results
+
+
+Cross-validation Results
+
+
+Symmetry Prediction
+Best Model is GaussianNB()
+Crossvalidation score is 0.19383880390191868
+Quaternary State Prediction
+Best Model is GaussianNB()
+Crossvalidation score is 0.0534624584441864
+Quaternary Type Prediction
+Best Model is GaussianNB()
+Crossvalidation score is 0.10601277848317407
+
+
+Results on Test Data
+
+
+For Symmetry Prediction
+Accuracy = 0.373743599468993
+MCC = 0.20186062514626005
+Class wise F1 = [0.5703125  0.32061988 0.22266205 0.2056655  0.0626506  0.09698997
+ 0.35064935 0.11075612 0.14729242 0.12658228 0.16176471 0.11009174
+ 0.18965517]
+Macro F1 = 0.20582248368878778
+Micro F1 = 0.373743599468993
+Weighted F1 = 0.33932840653282215
+
+
+For Quaternary State Prediction
+Accuracy = 0.14730703584297364
+MCC = 0.054554404378456926
+Class wise F1 = [0.03478434 0.16588932 0.04841713 0.02829582 0.33639617 0.08586232
+ 0.06126915 0.08507054 0.0988787 ]
+Macro F1 = 0.10498483215254566
+Micro F1 = 0.14730703584297364
+Weighted F1 = 0.17859852091803555
+
+
+For Quaternary Type Prediction
+Accuracy = 0.5192490043618434
+MCC = 0.10298490294758604
+Class wise F1 = [0.59617682 0.40611456]
+Macro F1 = 0.5011456910666047
+Micro F1 = 0.5192490043618434
+Weighted F1 = 0.4911703959855547
+Training Random Forest For Symmetry
+Training Random Forest For Quaternary State
+Training Random Forest For Quaternary Type
+Random Forest Model Results
+
+
+Cross-validation Results
+
+
+Symmetry Prediction
+Best Model is RandomForestClassifier(class_weight='balanced', min_samples_split=16,
+                       n_estimators=800, random_state=1)
+Crossvalidation score is 0.7363704441017948
+Quaternary State Prediction
+Best Model is RandomForestClassifier(class_weight='balanced', min_samples_split=16,
+                       n_estimators=800, random_state=1)
+Crossvalidation score is 0.604669474483323
+Quaternary Type Prediction
+Best Model is RandomForestClassifier(class_weight='balanced', min_samples_split=16,
+                       n_estimators=800, random_state=1)
+Crossvalidation score is 0.7757296539520292
+
+
+Results on Test Data
+
+
+For Symmetry Prediction
+Accuracy = 0.8254314432012138
+MCC = 0.7534632425490273
+Class wise F1 = [0.8477521  0.83115794 0.71881133 0.89750693 0.58571429 0.82253521
+ 0.8627451  0.78567368 0.83786506 0.7173913  0.74647887 0.73913043
+ 0.72340426]
+Macro F1 = 0.7781666531583613
+Micro F1 = 0.8254314432012138
+Weighted F1 = 0.8243509570938966
+
+
+For Quaternary State Prediction
+Accuracy = 0.7086573108287503
+MCC = 0.6283187768258415
+Class wise F1 = [0.68217054 0.68692769 0.67020148 0.67654499 0.78135124 0.67596899
+ 0.5625     0.68426675 0.65728525]
+Macro F1 = 0.6752463280134617
+Micro F1 = 0.7086573108287504
+Weighted F1 = 0.7085184327044324
+
+
+For Quaternary Type Prediction
+Accuracy = 0.9043713256210886
+MCC = 0.8067664853891768
+Class wise F1 = [0.88970307 0.9155961 ]
+Macro F1 = 0.902649583840955
+Micro F1 = 0.9043713256210886
+Weighted F1 = 0.9040085629144722
+Training AdaBoost Classifier For Symmetry
+Training AdaBoost Classifier For Quaternary State
+Training AdaBoost Classifier For Quaternary Type
+AdaBoost Classifier Model Results
+
+
+Cross-validation Results
+
+
+Symmetry Prediction
+Best Model is AdaBoostClassifier(learning_rate=1, n_estimators=100, random_state=1)
+Crossvalidation score is 0.17950073638919056
+Quaternary State Prediction
+Best Model is AdaBoostClassifier(learning_rate=1, n_estimators=800, random_state=1)
+Crossvalidation score is 0.15489235346843436
+Quaternary Type Prediction
+Best Model is AdaBoostClassifier(learning_rate=1, n_estimators=800, random_state=1)
+Crossvalidation score is 0.44619161645374417
+
+
+Results on Test Data
+
+
+For Symmetry Prediction
+Accuracy = 0.4661008913332069
+MCC = 0.17261908849598237
+Class wise F1 = [0.46417741 0.58002643 0.00736842 0.33962264 0.         0.10144928
+ 0.43410853 0.09       0.04920914 0.         0.         0.03636364
+ 0.04514673]
+Macro F1 = 0.1651901693142164
+Micro F1 = 0.4661008913332069
+Weighted F1 = 0.412727926594287
+
+
+For Quaternary State Prediction
+Accuracy = 0.3700929262279537
+MCC = 0.16611517281561047
+Class wise F1 = [0.23578947 0.38141969 0.05105105 0.08767123 0.51653913 0.04785479
+ 0.08430913 0.23867596 0.2590604 ]
+Macro F1 = 0.21137453956704325
+Micro F1 = 0.37009292622795376
+Weighted F1 = 0.3382909521203504
+
+
+For Quaternary Type Prediction
+Accuracy = 0.7315095770908401
+MCC = 0.45353003880752774
+Class wise F1 = [0.68111943 0.76814739]
+Macro F1 = 0.7246334111848833
+Micro F1 = 0.7315095770908401
+Weighted F1 = 0.7292010173402353
+Training Support Vector Machine For Symmetry
